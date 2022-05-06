@@ -106,10 +106,155 @@ button:hover {
   cursor: pointer;
   background-color: hsla(170, 100%, 14%, 1);
 }
-.hero .info {
+.info {
   width: 327px;
   min-height: 470px;
   border: 1px solid #dce9e2;
   border-radius: 6px;
   background: var(--color-cardbg);
+  padding: 4rem 0;
+}
+.info h1{
+  font-size: var(--fs-headerCard);
+  line-height: var(--lh-headerCard);
+  font-weight: 700;
+  margin: 0;
+}
+.info p{
+  font-size: var(--fs-texting);
+  line-height: var(--lh-texting);
+  color: var(--color-principal);
+  margin-bottom: 6rem;
+}
+main .desk1{
+  min-height: 203rem;
+  background-color: var(--color-desk1);
+  padding-top: 31rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.2rem;
+}
+.desk1 h3{
+  font-family: var(--ff);
+  font-size: var(--fs-subtitle);
+  line-height: var(--lh-subtitle);
+  font-weight: 700;
+  color: var(--color-principal);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.desk1 h2{
+  width: 31.4rem;
+  font-family: var(--ff);
+  font-size: var(--fs-title);
+  line-height: var(--lh-title);
+  color: var(--color-title);
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto 2.8rem;
+}
+.card{
+  width: 327px;
+  height: 207px;
+  background-color: white;
+  padding: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid #DCE9E2;
+  border-radius: 6px;
+}
+.card h2{
+  font-family: var(--ff);
+  font-size: var(--fs-titleCard);
+  line-height: var(--lh-titleCard);
+  font-weight: 700;
+  text-align: start;
+  margin: 1.6rem 0;
+}
+.card p{
+  font-family: var(--ff);
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: var(--color-texting);
+  font-weight: 400;
+  text-align: justify;
+}
+main .desk2{
+  padding: 10rem 2.4rem;
+  min-height: 96.9rem;
+  background-color: var(--color-desk2);
+  font-family: var(--ff);
+}
+.desk2 h3{
+  font-size: var(--fs-subtitle);
+  line-height: var(--lh-subtitle);
+  color: var(--color-principal);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 1.6rem;
+}
+.desk2 h2{
+  font-size: var(--fs-title);
+  line-height: var(--lh-title);
+  color: var(--color-title);
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+}
+.desk2 p{
+  font-size: var(--fs-texting);
+  line-height: var(--lh-texting);
+  color: var(--color-texting);
+  text-align: justify;
+  font-weight: 400;
+  margin-bottom: 6rem;
+}
+main .desk3{
+  padding: 10rem 2.4rem;
+  min-height: 73.5rem;
+  font-family: var(--ff);
+  background-color: var(--color-desk3);
+}
+.desk3 h2{
+  width: 29.7rem;
+  font-size: var(--fs-title);
+  line-height: var(--lh-title);
+  color: var(--color-title);
+  font-weight: 700;
+  margin-bottom: 3.4rem;
+}
+.desk3 .adress{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+.desk3 .adress:nth-child(3){
+  margin-bottom: 3.2rem;
+}
+.desk3 p{
+  font-size: var(--fs-texting);
+  line-height: var(--lh-texting);
+  color: var(--color-texting);
+}
+footer{
+  min-height: 28.5rem;
+  color: var(--color-desk2);
+  background-color: var(--color-principal);
+  padding: 6rem 2.4rem;
+  font-family: var(--ff);
+}
+footer svg:nth-child(1){
+  margin-bottom: 2.4rem;
+}
+footer p{
+  font-size: var(--fs-texting);
+  line-height: var(--lh-texting);
+  margin-bottom: 3.2rem;
+}
+footer svg:nth-child(3), svg:nth-child(4){
+  margin-right: 3.2rem;
 }
