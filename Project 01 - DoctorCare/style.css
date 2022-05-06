@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --ff: 'DM Sans', sans-serif;
+  --fs-header1: 3.4rem;
+  --lh-header1: 4.4rem;
+  --fs-subtitle: 1.4rem;
+  --lh-subtitle: 2.1rem;
+  --fs-title: 3rem;
+  --lh-title: 3.9rem;
+  --fs-titleCard: 2.4rem;
+  --lh-titleCard: 3.1rem;
+  --fs-headerP: 1.8rem;
+  --lh-headerP: 2.7rem;
+  --fs-button: 1.4rem;
+  --lh-button: 1.8rem;
+  --fs-headerCard: 4.8rem;
+  --lh-headerCard: 6.2rem;
+  --fs-texting: 1.6rem;
+  --lh-texting: 2.4rem;
+  --color-title: hsla(210, 11%, 15%, 1);
+  --color-principal: hsla(170, 100%, 26%, 1);
+  --color-texting: hsla(210, 9%, 31%, 1);
+  --color-cardbg: hsla(39, 100%, 97%, 1);
+  --color-bg: hsla(148, 23%, 89%, 1);
+  --color-desk1: hsla(180, 14%, 97%, 1);
+  --color-desk2: hsla(39, 100%, 97%, 1);
+  --color-desk3: hsla(0, 0%, 100%, 1);
+}
+
+body {
+  width: auto;
+  height: 517rem;
+}
+.page {
+  width: 37.5rem;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-bg);
+  padding: 2.7rem 2.4rem;
+}
+header svg:nth-child(2):hover {
+  cursor: pointer;
+}
+
+.hero {
+  height: 108rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--ff);
+  background-color: var(--color-bg);
+  padding: 4rem 2.4rem;
+}
+.hero h3 {
+  font-size: var(--fs-subtitle);
+  line-height: var(--lh-subtitle);
+  color: var(--color-principal);
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+.hero h1 {
+  font-size: var(--fs-header1);
+  line-height: var(--fs-header1);
+  text-align: center;
+  margin-bottom: 2.4rem;
+  font-weight: 700;
+}
+.hero p {
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: var(--color-texting);
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+.hero img {
+  margin: 0 0 -2rem;
+}
+button {
+  border-style: none;
+  width: 26.3rem;
+  height: 5.2rem;
+  border-radius: 4rem;
+  padding: 1.6rem 3.2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: var(--color-principal);
+  margin-bottom: 6rem;
+}
+button:hover {
+  cursor: pointer;
+  background-color: hsla(170, 100%, 14%, 1);
+}
+.hero .info {
+  width: 327px;
+  min-height: 470px;
+  border: 1px solid #dce9e2;
+  border-radius: 6px;
+  background: var(--color-cardbg);
+}
